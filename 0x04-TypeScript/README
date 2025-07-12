@@ -1,0 +1,136 @@
+ 
+                  # 0x04 – TypeScript Novice
+
+ **Duration:** July 7 2025 – July 14 2025  
+ 
+
+---
+
+##  Learning Objectives
+
+By the end of this project, I was able to confidently explain and apply the following TypeScript concepts:
+
+- Basic primitive types (`string`, `number`, `boolean`, `any`, etc.)  
+- `interface`, `class`, and `function` definitions  
+- Typed DOM manipulation  
+- Generic types  
+- Namespaces and declaration merging  
+- Ambient namespaces for integrating external libraries  
+- Nominal typing using branded types
+
+---
+
+##  Tools / Environment
+
+I used the following setup:
+
+- Editors: `vi`, `vim`, `emacs`, or Visual Studio Code  
+- OS: Ubuntu 18.04  
+- TypeScript files (`.ts`) with mandatory newline endings  
+- Build system: Webpack + `tsconfig.json`  
+- Linter: ESLint (`.eslintrc.js`)  
+- Testing: `jest@24.9.*` with TypeScript support  
+- Validation: zero compiler errors or warnings
+
+---
+
+##  Configuration Files
+
+Each `task_x/` directory includes:
+
+- `package.json`  
+- `.eslintrc.js` (where applicable)  
+- `tsconfig.json`  
+- `webpack.config.js`
+
+---
+
+##  Tasks Summary
+
+### Task 0 – Student Interface & Table
+
+- Defined `interface Student { firstName: string; lastName: string; age: number; location: string }`  
+- Created two `Student` instances in `studentsList`  
+- Rendered a table showing each student’s `firstName` and `location` via DOM  
+- Confirmed successful build without TypeScript errors
+
+### Task 1 – Teacher / Director / StudentClass
+
+- Defined `Teacher` interface with readonly, optional, and index signature properties  
+- Extended it to `Directors` with `numberOfReports`  
+- Created `printTeacher` (and its interface) to output `"J. Doe"`  
+- Implemented `StudentClass` with `workOnHomework()` and `displayName()` methods
+
+### Task 2 – Advanced Types, Employee Logic, String Literals
+
+- Defined separate interfaces for `DirectorInterface` and `TeacherInterface`  
+- Implemented their respective classes  
+- Wrote `createEmployee(salary)` to return proper instance based on salary  
+- Added `isDirector` type guard and `executeWork` function  
+- Defined `type Subjects = 'Math' | 'History'` and implemented `teachClass`
+
+### Task 3 – Ambient Namespaces & CRUD Integration
+
+- Declared `RowID`, `RowElement` in `interface.ts`  
+- Added `crud.js` and generated `crud.d.ts` for ambient definitions  
+- Used triple-slash directive and typed CRUD operations in `main.ts`, matching expected output
+
+### Task 4 – Namespaces & Declaration Merging
+
+- Organized code under `namespace Subjects` in `task_4/js/subjects/`  
+- Created `Teacher`, `Subject`, `Cpp`, `Java`, and `React` definitions  
+- Employed declaration merging with optional `experienceTeachingX` properties  
+- Validated functionality via console logs in `main.ts`
+
+### Task 5 – Nominal Typing with Branded Types
+
+- Defined branded interfaces `MajorCredits` and `MinorCredits`  
+- Implemented `sumMajorCredits` and `sumMinorCredits` to preserve nominal typing
+
+---
+
+##  Testing & Quality Assurance
+
+- All tasks compiled successfully (`npm run build`)  
+- Jest tests passed under TypeScript mode  
+- ESLint enforced code style and quality
+
+---
+
+##  Submission & Review
+
+1. Pushed all tasks under `0x04-TypeScript/task_x/`  
+2. Requested manual QA review  
+3. Initiated peer reviews via Savanna by **July 21 2025 00:00**  
+4. Awaiting final correction link from Savanna
+
+---
+
+##  Project Closure Checklist
+
+| Task                          | Completed |
+|-------------------------------|:---------:|
+| Code committed                | ✅        |
+| Build validated               | ✅        |
+| Tests passing                 | ✅        |
+| Manual QA requested           | ✅        |
+| Peer review initiated         | 🔲        |
+
+---
+
+##  Engineering Principles
+
+Throughout I maintained:
+
+- DRY and SOLID principles  
+- Idiomatic TypeScript usage  
+- Secure-by-default DOM handling  
+- Modular, accessible, and maintainable architecture  
+- AWS-style module structure  
+- Consideration for WCAG 2.2 AA compliance  
+- Formal documentation and academic rigor
+
+---
+
+ 
+
