@@ -225,50 +225,6 @@ text
 ├── task_3/       # Ambient namespaces and CRUD operations
 ├── task_4/       # Namespaces and declaration merging
 └── task_5/       # Brand convention and nominal typing
-Tasks Breakdown
-Basic Interface Implementation
-
-Created Student interface and rendered table using Vanilla JS
-
-Teacher Interface
-
-Extended interface with optional attributes
-
-Class Implementation
-
-Built StudentClass with interface constraints
-
-Advanced Types
-
-Director/Teacher differentiation using type predicates
-
-Namespaces
-
-Subject management system with merged declarations
-
-Nominal Typing
-
-Major/Minor credits with brand properties
-
-Technologies
-TypeScript 4.x
-
-Webpack
-
-ESLint
-
-Jest for testing
-
  
-
  
-
-
-
----
-
-##  Author
-
-**Vincent Omondi Owuor**
-AWS Certified | Cloud-Native Full-Stack Developer
-GitHub: [@owuorviny109](https://github.com/owuorviny109)
+  
