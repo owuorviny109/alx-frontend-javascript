@@ -189,42 +189,38 @@ npx sass 3-mixin_margins.scss
 * Mastered Sass CLI workflow
 * Practiced clean coding for design systems
 
-  Project: TypeScript Fundamentals (0x04-typescript)
-Overview
-This project introduces TypeScript, a typed superset of JavaScript, focusing on type safety, interfaces, classes, and advanced TypeScript features.
+  # Project: TypeScript Fundamentals (0x04‑typescript)
 
-Learning Objectives
-Basic types in TypeScript
+##  Overview  
+This project explores TypeScript—a statically typed superset of JavaScript—with a focus on enhanced type safety, interfaces, classes, generics, namespaces, and nominal typing.
 
-Interfaces, Classes, and functions
+---
 
-Working with the DOM and TypeScript
+##  Learning Objectives
 
-Generic types
+By completing the tasks, you will master:  
+- Basic TypeScript types (`string`, `number`, `boolean`, etc.)  
+- Defining and implementing `interfaces`, `classes`, and `functions`  
+- DOM manipulation with TypeScript  
+- Working with `generic` types  
+- Utilizing `namespaces` and declaration merging  
+- Integrating external libraries via ambient namespaces  
+- Implementing basic nominal typing with branded types  
 
-Namespaces and declaration merging
+---
 
-Ambient namespaces for external libraries
+##  Key Concepts
 
-Basic nominal typing
+| Concept            | Description                                 |
+|-------------------|---------------------------------------------|
+| Static Typing      | Enforcing type safety at compile time       |
+| Interfaces         | Defining object shapes/contracts            |
+| Classes            | Object‑oriented patterns with types         |
+| Generics           | Reusable type‑safe components               |
+| Namespaces         | Logical grouping and scoping               |
+| Declaration Merging | Extending existing types/interfaces        |
+| Type Predicates    | Runtime type guards (e.g., `isDirector`)   |
+| Nominal Typing     | Unique typing via branded types             |
 
-Key Concepts
-Concept	Description
-Static Typing	Type checking at compile time
-Interfaces	Defining object shapes
-Classes	OOP implementation with types
-Generics	Reusable component types
-Namespaces	Logical grouping of code
-Type Predicates	Runtime type checking
-Project Structure
-text
-0x04-typescript/
-├── task_0/       # Basic interface and DOM manipulation
-├── task_1/       # Teacher interface and class implementation
-├── task_2/       # Advanced types and type predicates
-├── task_3/       # Ambient namespaces and CRUD operations
-├── task_4/       # Namespaces and declaration merging
-└── task_5/       # Brand convention and nominal typing
+---
  
- 
-  
