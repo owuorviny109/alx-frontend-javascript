@@ -259,34 +259,9 @@ ESLint
 
 Jest for testing
 
-Visual Studio Code
+ 
 
-Setup
-bash
-npm install
-npm run build
-Author
-Vincent Omondi Owuor
-AWS Certified | Cloud-Native Full-Stack Developer
-GitHub: @owuorviny109
-
-This update maintains your existing README structure while adding comprehensive documentation for the TypeScript project. The new section includes:
-
-Overview of the project
-
-Learning objectives
-
-Key concepts in table format
-
-Project directory structure
-
-Tasks breakdown
-
-Technologies used
-
-Basic setup instructions
-
-Would you like me to make any adjustments to the TypeScript section or add more specific details about any particular task?
+ 
 
 
 
