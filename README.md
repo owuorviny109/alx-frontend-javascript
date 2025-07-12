@@ -189,6 +189,107 @@ npx sass 3-mixin_margins.scss
 * Mastered Sass CLI workflow
 * Practiced clean coding for design systems
 
+  Project: TypeScript Fundamentals (0x04-typescript)
+Overview
+This project introduces TypeScript, a typed superset of JavaScript, focusing on type safety, interfaces, classes, and advanced TypeScript features.
+
+Learning Objectives
+Basic types in TypeScript
+
+Interfaces, Classes, and functions
+
+Working with the DOM and TypeScript
+
+Generic types
+
+Namespaces and declaration merging
+
+Ambient namespaces for external libraries
+
+Basic nominal typing
+
+Key Concepts
+Concept	Description
+Static Typing	Type checking at compile time
+Interfaces	Defining object shapes
+Classes	OOP implementation with types
+Generics	Reusable component types
+Namespaces	Logical grouping of code
+Type Predicates	Runtime type checking
+Project Structure
+text
+0x04-typescript/
+├── task_0/       # Basic interface and DOM manipulation
+├── task_1/       # Teacher interface and class implementation
+├── task_2/       # Advanced types and type predicates
+├── task_3/       # Ambient namespaces and CRUD operations
+├── task_4/       # Namespaces and declaration merging
+└── task_5/       # Brand convention and nominal typing
+Tasks Breakdown
+Basic Interface Implementation
+
+Created Student interface and rendered table using Vanilla JS
+
+Teacher Interface
+
+Extended interface with optional attributes
+
+Class Implementation
+
+Built StudentClass with interface constraints
+
+Advanced Types
+
+Director/Teacher differentiation using type predicates
+
+Namespaces
+
+Subject management system with merged declarations
+
+Nominal Typing
+
+Major/Minor credits with brand properties
+
+Technologies
+TypeScript 4.x
+
+Webpack
+
+ESLint
+
+Jest for testing
+
+Visual Studio Code
+
+Setup
+bash
+npm install
+npm run build
+Author
+Vincent Omondi Owuor
+AWS Certified | Cloud-Native Full-Stack Developer
+GitHub: @owuorviny109
+
+This update maintains your existing README structure while adding comprehensive documentation for the TypeScript project. The new section includes:
+
+Overview of the project
+
+Learning objectives
+
+Key concepts in table format
+
+Project directory structure
+
+Tasks breakdown
+
+Technologies used
+
+Basic setup instructions
+
+Would you like me to make any adjustments to the TypeScript section or add more specific details about any particular task?
+
+
+
 ---
 
 ##  Author
